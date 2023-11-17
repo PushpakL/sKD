@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ext.css">
+    <style>
+        
+        .center{
+           margin-left: 50px;
+        }
+        .show:hover{
+                  color: green;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p>This is paragraph <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis perferendis repellendus, nostrum at accusantium accusamus quibusdam ipsa eius quidem hic, dolorem cum dolor voluptates iusto necessitatibus tempora fugit reiciendis explicabo optio ducimus sit labore rem autem harum? Deleniti, eveniet quidem?
+    </p>
+    <div>
+      <img class="center" src="https://source.unsplash.com/1080x600/?cheetah  alt="not found">
+       
+    </div>
+    <a  class="show " href="https://www.youtube.com" target="_blank"> YouTube</a>
+
+    <div>
+        <form >
+
+            <div><label>Name:</label> <input type="text" name="Name" placeholder="Enter Name"></div>
+            <br>
+
+            <div>Ph No: <input type="number" placeholder="Enter Phone Number"> </div>
+            <br>
+
+            <div>Email: <input type="email" name="Email" placeholder="Enter the email id"></div>
+            <br>
+            <div>Password: <input type="password" ></div>
+            <br>
+
+            <div>Submit: <input  type="submit"></div>
+            <br>
+            
+            <div>
+        <script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+    </div>
+            
+            
+        </form>
+    </div>
+    
+</body>
+</html>
